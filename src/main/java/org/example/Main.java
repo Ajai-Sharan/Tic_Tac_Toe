@@ -35,7 +35,7 @@ public class Main {
             System.out.println("Game DRAW");
         } else {
             gameController.printBoard(game);
-            System.out.println("Player " + gameController.getWinner(game).getName() + " is the winner");
+            System.out.println("The Player " + gameController.getWinner(game).getName() + " is the winner");
         }
 
 
